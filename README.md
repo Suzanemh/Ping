@@ -19,3 +19,8 @@ And,
 2. ox.ac.uk
 3. gaia.cs.umass.edu
 4. sydney.edu.au
+
+
+# The commando to type in terminal
+
+hostname.com -c 10

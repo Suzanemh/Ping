@@ -1,0 +1,26 @@
+#1 report the minimum, average, and maximum round-trip times (RTT) 
+#2 explain the differences observed in the minimum round-trip time to each of these hosts
+
+
+# www.oslomet.no
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 3.965/10.528/34.128/8.463 ms
+
+# ox.ac.uk
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 3.741/10.064/27.179/6.198 ms
+
+# gaia.cs.umass.edu
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 281.383/340.248/407.211/42.397 ms
+
+# sydney.edu.au
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 288.641/351.909/400.941/35.181 ms
+
+# Explanation
+The minimum RTT represents the shortest time it took for a packet to travel to the destination and back.
+Differences in minimum RTT could be due to various factors such as geographical distance, network infrastructure, routing paths, and network congestion.
+In this case:
+For www.oslomet.no and ox.ac.uk, the minimum RTT is relatively low, indicating a potentially close physical distance or efficient network infrastructure.
+However, for gaia.cs.umass.edu and sydney.edu.au, the minimum RTT is significantly higher, suggesting longer distances or less efficient network paths.
